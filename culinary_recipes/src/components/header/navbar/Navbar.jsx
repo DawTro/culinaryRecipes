@@ -1,10 +1,13 @@
+import "bootstrap/dist/css/bootstrap.min.css";
+import { Form } from "react-bootstrap";
+
 const Navbar = () => {
   return (
-    <>
-      <div className="nav">
-        <p>Navbar</p>
-      </div>
-    </>
+    <Form>
+      <Form.Group>
+        <Form.Control type="text" placeholder="Szukaj" />
+      </Form.Group>
+    </Form>
   );
 };
 export default Navbar;
