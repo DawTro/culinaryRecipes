@@ -1,0 +1,16 @@
+.image {
+  /* width: 300px; */
+  height: 300px;
+  object-fit: cover;
+  transition: 0.5s;
+}
+.image:hover {
+  transform: scale(1.1);
+}
+.card:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.card-img {
+  overflow: hidden;
+}

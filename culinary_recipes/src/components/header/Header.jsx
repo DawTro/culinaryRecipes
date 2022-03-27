@@ -7,7 +7,7 @@ import { Row, Col } from "react-bootstrap";
 function Header() {
   return (
     <>
-      <Row className="border-bottom border-secondary py-4 py-md-3">
+      <Row className="header border-bottom border-secondary py-4 py-md-3 sticky-top">
         <Col
           md
           className="d-flex p-0 p-md-2 justify-content-center align-items-center">
